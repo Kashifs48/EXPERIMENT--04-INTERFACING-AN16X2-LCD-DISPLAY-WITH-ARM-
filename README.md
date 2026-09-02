@@ -273,9 +273,11 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
-  Lcd_string(&lcd, "Dhanuskarthi S");
+  Lcd_string(&lcd, "JONES BENEDICT A P");
   Lcd_cursor(&lcd, 1,1);
-  Lcd_string(&lcd, "212224230058");
+  Lcd_string(&lcd, "212224040142");
+
+
 
   while (1)
   {
@@ -408,17 +410,23 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 ```
 
 
 
+
 ## Output screen shots of proteus  :
+<img width="1491" height="1055" alt="498bba5b-fcdb-4f39-9177-e8fce151c632" src="https://github.com/user-attachments/assets/96a3a369-2cf8-441f-a8d6-5c442958063a" />
+
+
  
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/07736eb0-a5f2-4120-b0fb-e43b55106c3c" />
-
+ 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-<img width="1369" height="1149" alt="image" src="https://github.com/user-attachments/assets/f5e8f483-33bf-49ee-a293-4b854be7f1c4" />
+ <img width="1303" height="1207" alt="60257d36-a2b1-444a-8c38-3cfe8afc055f" src="https://github.com/user-attachments/assets/b61a214f-c881-438d-ba98-12d95ee2abaa" />
 
+
+ 
  
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
